@@ -74,7 +74,7 @@ class GroceryListArray implements IGroceryList {
       return false;
     }
   */
-  public boolean remove(String name) { //WILL FIX. WAIT WAIT WAIT WAIT
+  public boolean remove(String name) {  
     int count = 0;
     for (int i = 0; i < items.length; i++) {
       if (items[i].name.equals(name)) {
