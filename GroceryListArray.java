@@ -69,7 +69,7 @@ class GroceryListArray implements IGroceryList {
   
   /* String -> boolean
    * Determines whether 
-   * Purpose: Gets a string name and removes name&quantity from the list; Arranges items in the array to fill in squence what was removed.
+   * Purpose: Gets a string name and removes name; copies remaining old array contents to new
    * boolean remove (String a) {
       return false;
     }
